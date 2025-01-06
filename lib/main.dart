@@ -14,7 +14,7 @@ void main() {
         Provider<ChatService>(create: (_) => ChatService()),
         BlocProvider<CartCubit>(create: (context) => CartCubit()),
       ],
-      child: const MyApp(),
+      child: const SafeArea(child: MyApp()),
     ),
   );
 }
