@@ -1,0 +1,92 @@
+name: flutter_mindmed_project
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Versioning
+version: 1.0.0+1
+
+# Dart and Flutter SDK environment
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+# Dependencies
+dependencies:
+  # Core dependencies
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  
+  # State management
+  flutter_bloc: ^8.1.6
+  provider: ^6.1.2
+  
+  # Firebase
+  firebase_core: ^3.6.0
+
+  # Networking and APIs
+  http: ^1.2.2
+
+  # UI and animations
+  animated_splash_screen: ^1.3.0
+  google_fonts: ^5.0.0
+  flutter_screenutil: ^5.9.3
+  smooth_page_indicator: ^1.0.0
+  page_transition: ^2.0.0
+  cached_network_image: ^3.2.0
+
+  # Utilities
+  intl: ^0.20.1
+  shared_preferences: ^2.3.2
+  permission_handler: ^11.3.1
+  flutter_email_sender: ^6.0.3
+  fluttertoast: ^8.2.8
+
+  # Speech and audio
+  flutter_tts: ^4.2.0
+  speech_to_text: ^7.0.0
+
+  # Google Maps and 3D models
+  google_maps_flutter: ^2.10.0
+  model_viewer_plus: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  # Material Icons
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - assets/animation/
+    - assets/images/
+    - assets/icons/
+    - assets/json/
+    - assets/human/
+    - assets/LinaModel/
+    - assets/json/test/free_tests/
+    - assets/json/test/paid_tests/
+    - assets/products/Buddha/
+    - assets/products/dotJournaling/
+    - assets/products/giftBasket/
+    - assets/products/headMassage/
+    - assets/products/headphone/
+    - assets/products/herbalMoodSleep/
+    - assets/products/lightBulb/
+    - assets/products/massageSeat/
+    - assets/products/pressureBall/
+    - assets/products/Punch/
+    - assets/products/reliefCube/
+    - assets/payment/
+
+# Fonts (Add if needed)
+# fonts:
+#   - family: CustomFont
+#     fonts:
+#       - asset: fonts/CustomFont-Regular.ttf
+#       - asset: fonts/CustomFont-Bold.ttf
+#         weight: 700
